@@ -1,0 +1,206 @@
+body
+{
+	background-color: #f4f4f4;
+}
+/*
+h3
+{
+	text-align: center;
+	font-size: 25px;
+	color: red;
+}
+*/
+.clr{
+	clear: both;
+}
+h4
+{
+	text-align: center;
+	font-size: 25px;
+	color: blue;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	word-spacing: 0.5em;
+}
+
+h5
+{
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	text-decoration: underline;
+	text-transform: lowercase;
+	letter-spacing: 0.2em;
+}
+
+#main-paragraph
+{
+	text-align: center;
+	font-size: 30px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.paragraph1
+{
+	text-align: center;
+	color: white;
+	line-height: 1.5em;
+	font: normal 20px Arial, Helvetica, sans-serif;
+	background-color: #333;
+	border: 4px red solid;
+	padding: 15px;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover
+{
+	color: red;
+}
+
+.container
+{	
+	width: 80%;
+	margin: auto;
+}
+
+.paragraph2
+{
+	font: normal 15px Arial, Helvetica, sans-serif;
+	background-color: yellow;
+	border: 4px red dotted;
+	padding: 10px;
+}
+
+.paragraph3
+{
+	font: normal 35px Arial, Helvetica, serif;
+	background-color: orange;
+	border: 4px red dashed;
+	padding: 15px;
+}
+
+.categories
+{
+	border: 5px black double;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.categories ul {
+	padding: 0;
+	list-style: none;
+}
+
+.categories li {
+	padding-bottom: 6px;
+	border-bottom:  dotted 1.5px grey;
+}
+
+.my-form {
+	padding: 15px;
+}
+
+.my-form .form-group {
+	padding: 15px;
+}
+
+.my-form .form-group label {
+	display: block;
+}
+
+.my-form .form-group input{
+	padding: 10px;
+	width: 100%;
+}
+
+.my-form .form-group textarea {
+	padding: 10px;
+	width: 100%
+}
+
+.button {
+	background-color: #333333;
+	color: white;
+	border: none;
+	padding: 10px;
+}
+
+.button:hover {
+	color: red;
+}
+
+.block{
+
+	float:left;
+	width: 33.3%;
+	border: 1px solid #ccc;
+	padding :20px;
+	box-sizing: border-box;
+} 
+
+
+#main-block {
+	float: left;
+	width: 70%;
+}
+
+#sidebar {
+	float: right;
+	width: 30%;
+	border: 2px double black;
+	background-color: blue;
+	box-sizing: border-box;
+	margin-top: 30px;
+}
+
+.p-box {
+	width: 800px;
+	height: 600px;
+	border: 3px solid #000;
+	position: relative;
+	background-image: url('../Images/KRISHNA 2.jpg');
+	background-position: center right;
+}
+
+.p-box p{
+	position: absolute;
+	top: 150px;
+	left: 100px;
+}
+
+.fix-me {
+	position: fixed;
+	top: 500px;
+}
+
+.my-list li:first-child {
+	background-color: darkgrey;
+	color: black;
+}
+
+.my-list li:last-child {
+	background-color: yellow;
+	color: black;
+}
+
+.my-list li:nth-child(10) {
+	background-color: blue;
+	color: black;
+}
+
+.my-list li:nth-child(odd) {
+	background-color: red;
+	color: black;
+}
+
+.my-list li:nth-child(even) {
+	background-color: orange;
+	color: black;
+}

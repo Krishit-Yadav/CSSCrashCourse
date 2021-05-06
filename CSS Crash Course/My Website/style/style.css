@@ -1,0 +1,108 @@
+body {
+	background-color: lightgrey;
+	color: black;
+	font-family: Arial, Halvetica, Sans-serif;
+	font-size: 25px;
+	line-height: 2em;
+	margin: 0;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#main-header {
+	background-color: orange;
+	color: black;
+
+}
+
+#navbar {
+	background-color: black;
+	color: white;
+}
+
+#navbar ul {
+	list-style: none;
+	padding: 0;
+}
+
+#navbar li {
+	display: inline;
+}
+
+#navbar a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding-right: 15px;
+}
+
+#showcase {
+	background-image: url('../Images/Automobile.jpg');
+	background-position: center right ;
+	min-height: 400px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#showcase h1 {
+	color: black;
+	font-size: 40px;
+	line-height: 2em;
+	padding-top: 60px;
+}
+
+#showcase h4 {
+	text-decoration-style: italic;
+	color: black;
+	font-size: 20px;
+	line-height: 2em;
+}
+
+#main {
+	float: left;
+	width: 70%;
+	padding: 100px 30px;
+	box-sizing: border-box; 
+}
+
+#sidebar {
+	float: right;
+	width: 30%;
+	padding: 0 30px;
+	box-sizing: border-box;
+	background-color: orange;
+}
+
+#main-footer {
+	background-color: black;
+	color: orange;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 40px; 
+}
+
+@media (max-width: 600px) {
+
+	#main {
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar {
+		width: 100%;
+		float: none;
+	}
+
+	#main-header {
+		text-align: center;
+	}
+
+	#navbar {
+		text-align: center;
+	}
+}
